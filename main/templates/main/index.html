@@ -1,0 +1,28 @@
+<form method="POST">
+    {% csrf_token %}
+
+    <div class="mb-3">
+      <label for="modelo" class="form-label">Modelo: </label>
+      <input class="form-control" id="modelo" name= "modelo">
+
+    </div>
+
+    <div class="mb-3">
+        <label for="marca" class="form-label">Marca: </label>
+        <input class="form-control" id="marca" name= "marca">
+  
+    </div>
+    <div class="mb-3">
+      <label for="ano" class="form-label">Ano: </label>
+      <input class="form-control" id="ano" name= "ano">
+  
+    </div>
+
+    <div class="mb-3">
+      <label for="cor" class="form-label">Cor: </label>
+      <input class="form-control" id="cor" name= "cor">
+  
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
